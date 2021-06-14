@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { CRMAuthContext } from '../Context/AuthContext';
 import { Form, Input, Button } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
-import { NavLink } from 'react-router-dom';
+import { NavLink,useHistory } from 'react-router-dom';
 import clienteAxios from '../Config/config';
 
 import '../Css/login.css';
@@ -15,6 +15,7 @@ box-shadow: 1px 3px 16px 4px #7a7a7a4a ;
 
 const Login = () => {
 
+  let history = useHistory();
   const {setAuth} = useContext(CRMAuthContext); 
  
     const onFinish = async (values) => {
@@ -24,7 +25,9 @@ const Login = () => {
        auth: true,
        token: data.data.token,
        user: data.data.user  
-       })
+       });
+
+       if (data.status === 200) history.push("/BibliotecaPublicaM")
        
      } catch (error) {
        console.log(error.response);

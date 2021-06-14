@@ -1,6 +1,7 @@
 import React from 'react';
 import { Form, Input, Button } from 'antd';
 import { UserOutlined, LockOutlined,PhoneOutlined } from '@ant-design/icons';
+import { useHistory } from 'react-router-dom';
 import clientAxios from '../Config/config';
 
 import '../Css/login.css';
@@ -13,11 +14,10 @@ box-shadow: 1px 3px 16px 4px #7a7a7a4a ;
 
 const Register = () => {
 
-
+ let history = useHistory();
   const onRegister = async (values) => {
-    console.log('Received values of form: ', values);
-     await clientAxios.post("register/user",values)
-
+    await clientAxios.post("register/user",values);
+    history.push("/BibliotecaPublicaM");
   };
 
   return (
