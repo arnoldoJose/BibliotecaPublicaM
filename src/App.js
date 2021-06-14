@@ -20,21 +20,22 @@ import { ProviderBook } from './Context/CheckStatus';
 function App() {
  const { auth } = useContext(CRMAuthContext);
   return (
-      <Router>
-        <Provider>
-          <ProviderBook>
-            <Switch>
-              <Route exact path="/Inicio" component={CardBook} />
-              <Route exact path="/login" component={Login} />
-              <Route exact path="/registrate" component={Register} />
-              {(!auth.auth) ? (<Redirect to="/login"/>) :
-              (<Route exact path="/loans" component={MisLoans} />)
-              }   
-            
-            </Switch>
-          </ProviderBook>
-        </Provider>
-      </Router>
+    <Router>
+      <Provider>
+        <ProviderBook>
+          <Switch>
+            <Route exact path="/BibliotecaPublicaM" component={CardBook} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/registrate" component={Register} />
+            {!auth.auth ? (
+              <Redirect to="/login" />
+            ) : (
+              <Route exact path="/loans" component={MisLoans} />
+            )}
+          </Switch>
+        </ProviderBook>
+      </Provider>
+    </Router>
   );}
 
 export default App;
