@@ -1,0 +1,44 @@
+.section-news{
+  margin: 3em;
+  height: 3em;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.container-categories{
+  display: flex;
+  
+}
+
+.container-categories div ul {
+  display: none;
+  list-style: none;
+}
+
+.container-categories div p { 
+  list-style: none;
+   display: inline-block;
+   margin: 1em;
+   font-size: 1.2em; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.container-categories div p:hover  { 
+  cursor: pointer; 
+}
+
+.container-categories div:hover ul {
+  display: block;
+  cursor: pointer;
+}
+
+.center-news{
+  padding: 0;
+  display: flex;
+  margin: 0;
+  position: relative;
+  top: 6em;
+  justify-items: center;
+  justify-content: center;
+}

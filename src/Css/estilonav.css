@@ -1,0 +1,158 @@
+
+
+html{
+  height: 100%;
+}
+
+.content-info{
+  text-align: center;
+}
+
+/* @media (min-width:1395px){ */
+  .container-font{
+  position: relative;
+  bottom: 30.1em;
+  z-index: 1;
+}
+/* } */
+
+@media (max-width: 414px){
+  .container-font{
+  position: relative;
+  bottom: 22.5em;
+  z-index: 1;  
+  }
+}
+
+.container-font > .title-sistem > h1{
+   position: relative;
+   bottom: 0.1em;
+   transition: all 3.5s ease-in-out;
+   animation: 3.5s animaText  ;
+   -webkit-animation: 3.5s animaText  ;
+   -webkit-transition: all 3.5s ease-in-out;
+   -moz-transition: all 3.5s ease-in-out;
+   -ms-transition: all 3.5s ease-in-out;
+   -o-transition: all 3.5s ease-in-out;
+}
+
+@keyframes animaText{
+  0%{
+    color: rgba(0, 0, 0, 0.342);
+    position: relative;
+    bottom: 0.9em;
+  }
+  100%{
+    color: white;
+    bottom: 0.1;
+  }
+}
+
+body{
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.section-container{
+  height: 60vh;
+  background: url('../Img/liback.jpg') no-repeat center fixed;
+  background-attachment:scroll;
+   background-size: 100% 100%;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+nav{
+  background: darkslategray;
+}
+
+nav > ul{
+  margin: auto;
+  list-style: none;
+  display: flex;
+  color: white;
+  width:70%;
+  justify-content: space-between;
+}
+
+nav > ul > li{
+  margin: 1em;
+  font-family: 'Big Shoulders Inline Text',cursive;
+  text-decoration: none;
+}
+nav > ul > li > a {
+  font-size: 2em;
+}
+
+main{
+  position: relative;
+  bottom: 4em;
+}
+
+
+.categories-card{
+  height: 7em;
+  width: 8em;
+  border-radius: 50%;
+ 
+  justify-content: center;
+}
+
+.categories-card:hover{
+  background: darkslategray;
+}
+
+.categories-card:hover > picture > img{
+filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
+@media (max-width: 650px) {
+
+  nav > ul{
+  position: relative;
+  flex: auto;
+  width: 100%;
+  right: 1.1em;
+  margin: auto;
+  list-style: none;
+  color: white;
+  width:100%;
+  justify-items: center;
+  justify-content: center;
+}
+
+  nav > ul > li > a {
+  font-size: 1.7em;
+}
+ 
+}
+
+.btn-books:hover{
+  background: rgba(47, 79, 79, 0.651);
+  color: white;
+}
+
+.btn-books{
+  color: white;
+  font-size: 1.5em;
+  font-family:'Courier New', Courier, monospace;
+  border: 1px solid;
+  background-color: rgba(0, 0, 0, 0.459);
+}
+
+.title-sistem{display: none;}
+
+header{
+  height: 72vh;
+}
+
+.container-categories-books{
+  margin-top: 5em;
+}
+

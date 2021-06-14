@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css'; 
+
+#components-layout-demo-fixed-sider .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.ant-layout-content{
+  margin-top: 6em;
+}
+
+.site-layout-background > .container {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.site-layout-background > .container > .title-layout {
+  font-size: 2.9em;
+}
