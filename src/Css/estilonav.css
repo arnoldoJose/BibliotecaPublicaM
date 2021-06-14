@@ -53,13 +53,13 @@ body{
   margin: 0;
   padding: 0;
 }
-
+/* 
 .section-container{
   height: 60vh;
   background: url('../Img/liback.jpg') no-repeat center fixed;
   background-attachment:scroll;
    background-size: 100% 100%;
-}
+} */
 
 .navbar {
   position: sticky;
