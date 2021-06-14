@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BibliotecaPublicaM/static/css/main.e2b004ff.chunk.css",
-    "main.js": "/BibliotecaPublicaM/static/js/main.ca9ea273.chunk.js",
-    "main.js.map": "/BibliotecaPublicaM/static/js/main.ca9ea273.chunk.js.map",
+    "main.js": "/BibliotecaPublicaM/static/js/main.08478b0b.chunk.js",
+    "main.js.map": "/BibliotecaPublicaM/static/js/main.08478b0b.chunk.js.map",
     "runtime-main.js": "/BibliotecaPublicaM/static/js/runtime-main.f377d1ce.js",
     "runtime-main.js.map": "/BibliotecaPublicaM/static/js/runtime-main.f377d1ce.js.map",
     "static/js/2.6149dd8e.chunk.js": "/BibliotecaPublicaM/static/js/2.6149dd8e.chunk.js",
     "static/js/2.6149dd8e.chunk.js.map": "/BibliotecaPublicaM/static/js/2.6149dd8e.chunk.js.map",
     "static/css/3.3c3a73a9.chunk.css": "/BibliotecaPublicaM/static/css/3.3c3a73a9.chunk.css",
-    "static/js/3.a730780d.chunk.js": "/BibliotecaPublicaM/static/js/3.a730780d.chunk.js",
-    "static/js/3.a730780d.chunk.js.map": "/BibliotecaPublicaM/static/js/3.a730780d.chunk.js.map",
+    "static/js/3.01b086a7.chunk.js": "/BibliotecaPublicaM/static/js/3.01b086a7.chunk.js",
+    "static/js/3.01b086a7.chunk.js.map": "/BibliotecaPublicaM/static/js/3.01b086a7.chunk.js.map",
     "static/js/4.a7a8e5e5.chunk.js": "/BibliotecaPublicaM/static/js/4.a7a8e5e5.chunk.js",
     "static/js/4.a7a8e5e5.chunk.js.map": "/BibliotecaPublicaM/static/js/4.a7a8e5e5.chunk.js.map",
     "static/js/5.d2961b43.chunk.js": "/BibliotecaPublicaM/static/js/5.d2961b43.chunk.js",
@@ -18,7 +18,7 @@
     "static/css/3.3c3a73a9.chunk.css.map": "/BibliotecaPublicaM/static/css/3.3c3a73a9.chunk.css.map",
     "static/css/main.e2b004ff.chunk.css.map": "/BibliotecaPublicaM/static/css/main.e2b004ff.chunk.css.map",
     "static/js/2.6149dd8e.chunk.js.LICENSE.txt": "/BibliotecaPublicaM/static/js/2.6149dd8e.chunk.js.LICENSE.txt",
-    "static/js/3.a730780d.chunk.js.LICENSE.txt": "/BibliotecaPublicaM/static/js/3.a730780d.chunk.js.LICENSE.txt",
+    "static/js/3.01b086a7.chunk.js.LICENSE.txt": "/BibliotecaPublicaM/static/js/3.01b086a7.chunk.js.LICENSE.txt",
     "static/js/4.a7a8e5e5.chunk.js.LICENSE.txt": "/BibliotecaPublicaM/static/js/4.a7a8e5e5.chunk.js.LICENSE.txt",
     "static/js/5.d2961b43.chunk.js.LICENSE.txt": "/BibliotecaPublicaM/static/js/5.d2961b43.chunk.js.LICENSE.txt",
     "static/media/logo.1545d1c4.png": "/BibliotecaPublicaM/static/media/logo.1545d1c4.png"
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.f377d1ce.js",
     "static/css/3.3c3a73a9.chunk.css",
-    "static/js/3.a730780d.chunk.js",
+    "static/js/3.01b086a7.chunk.js",
     "static/css/main.e2b004ff.chunk.css",
-    "static/js/main.ca9ea273.chunk.js"
+    "static/js/main.08478b0b.chunk.js"
   ]
 }
