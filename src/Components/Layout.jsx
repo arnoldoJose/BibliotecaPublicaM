@@ -40,7 +40,7 @@ const LayoutMain = ({children}) => {
 
   const vamos = () => {
     setAuth({auth:false,token: "",user: ""});
-    history.replace("/bibliotecapublicam");
+    history.replace("/BibliotecaPublicaM");
   }
 
 
@@ -61,7 +61,7 @@ const LayoutMain = ({children}) => {
         </StyledLogo>
         <Menu theme="dark" mode="inline" style={{ position: "relative", top:"1.5em" }} defaultSelectedKeys={[`${stateKey}`]}>
           <Menu.Item key="1" onClick={captureKey} icon={<ReadOutlined />}>
-            <NavLink to="/bibliotecapublicaM">
+            <NavLink to="/BibliotecaPublicaM">
               Libros
             </NavLink>
         </Menu.Item>
