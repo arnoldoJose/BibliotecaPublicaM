@@ -61,7 +61,7 @@ const LayoutMain = ({children}) => {
         </StyledLogo>
         <Menu theme="dark" mode="inline" style={{ position: "relative", top:"1.5em" }} defaultSelectedKeys={[`${stateKey}`]}>
           <Menu.Item key="1" onClick={captureKey} icon={<ReadOutlined />}>
-            <NavLink to="/bibliotecapublicam">
+            <NavLink to="/bibliotecapublicaM">
               Libros
             </NavLink>
         </Menu.Item>
