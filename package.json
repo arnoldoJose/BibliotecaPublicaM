@@ -1,7 +1,7 @@
 {
   "name": "fromclient",
   "version": "0.1.0",
-   "homepage": "http://www.BibliotecaPublicaM",
+   "homepage": "http://arnoldojose.github.io/BibliotecaPublicaM",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
