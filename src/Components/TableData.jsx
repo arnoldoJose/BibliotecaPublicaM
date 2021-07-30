@@ -21,6 +21,7 @@ const TableData = ({item}) => {
     }
   },[auth])
 
+  
   const getId = async (e) => {
     let id = e.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.id;
     
@@ -83,8 +84,7 @@ const TableData = ({item}) => {
 
     pdf.setFontSize(40);
     pdf.text(40, 250, "Ticket de Prestamo");
-
-    pdf.autoPrint({ variant: "non-conform" });
+    
     pdf.save("print.pdf")
 
   }
@@ -171,7 +171,7 @@ const TableData = ({item}) => {
                      <label htmlFor="">Marca el Dia Para Devolver el Libro</label>
                   </div>
                    <div className="container-date">
-                            <input type="date" onChange={handelChange} className="form-control" min={`${new Date().getFullYear()}-${(getMont <= 9 ? ('0' + getMont) : (getMont))}-${(getDate <= 9 ? ('0' + getDate) : (getDate))}`} max={`${new Date().getFullYear()}-${(getMont <= 9) ? ('0' + getMont): (getMont)}-${dayLast}`} name="return_loan" id="date"/>
+                            <input type="date" onChange={handelChange} className="form-control" min={`${new Date().getFullYear()}-${(getMont <= 9 ? ('0' + getMont) : (getMont)) }-${(getDate <= 9 ? ('0' + getDate) : (getDate))}`} max={`${new Date().getFullYear()}-${(getMont <= 9) ? ('0' + getMont) : (getMont)}-${dayLast}`} name="return_loan" id="date"/>
                    </div>
                   <div className="modal-footer">
                      <button type="button" onClick={createLoan} className="btn btn-primary btn-block btn-api">Realizar Prestamo</button>

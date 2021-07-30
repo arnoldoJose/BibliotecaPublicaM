@@ -42,7 +42,7 @@ const Search = ({ saveBooks, saveMessage, verifyStatus }) => {
           onChange={handelChange}
           name="name"
           className="form-control mx-3 search-input-book"
-          placeholder="Buscar Libro"/>
+          placeholder="Nombre del Libro O Autor"/>
       </div>
       <input
         type="button"

@@ -24,7 +24,7 @@ function App() {
       <Provider>
         <ProviderBook>
           <Switch>
-            <Route exact path="/BibliotecaPublicaM" component={CardBook} />
+            <Route exact path="/bibliotecapublicam" component={CardBook} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/registrate" component={Register} />
             {!auth.auth ? (

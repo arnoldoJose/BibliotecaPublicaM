@@ -8,15 +8,13 @@ let dayLast;
 if (getDay === lastDate) {
   dayLast = "0" + 4;
 } else {
-  dayLast = getDay+=4
-  if (dayLast <= 9) {
-    dayLast = '0'+dayLast
-  } else {
-    // dayLast = getDay += 4;
-    if (dayLast > 31) {
-      dayLast = "0" + 4;
-    }
-  }
+  dayLast = getDay+=3
+
+    // if (dayLast > 30) {
+    //   dayLast = "0" + 3;
+    // } else {
+    //   dayLast = dayLast + 3;
+    // }
 }
 
 console.log(dayLast);

@@ -47,6 +47,13 @@ const MisLoans = () => {
   }
 
   const generatePdf = (datos) => {
+    
+    let year = new Date().getFullYear(),
+      month = new Date().getMonth() + 1,
+      day = new Date().getDate();
+    let fecha = `${year}-${month <= 9 ? "0" + month : month}-${day <= 9 ? "0" + day : day}`;
+
+
     let pdf = new jsPDF()
     pdf.setFontSize(40);
     pdf.text(10, 20, "Biblioteca Publica La Merced");
@@ -65,11 +72,15 @@ const MisLoans = () => {
     pdf.text(110, 170, `${datos.return_date}`);
     pdf.text(110, 186, "Devolucion");
 
+    if (fecha.split("-")[2] > datos.return_date.split("-")[2]) {
+      pdf.setFontSize(20);
+      pdf.text(40, 198, "Aviso:");
+      pdf.text(110, 198, "devolucion retrasada",);
+    }
     pdf.setFontSize(40);
     pdf.text(40, 250, "Ticket de Devolucion");
-
-    pdf.autoPrint({ variant: "non-conform" });
     pdf.save("print.pdf")
+
   }
 
   return ( 

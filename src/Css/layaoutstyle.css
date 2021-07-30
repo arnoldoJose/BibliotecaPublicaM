@@ -13,7 +13,7 @@
   margin-top: 6em;
 }
 
-.site-layout-background > .container {
+.site-layout-background > .container > .title-layout {
   font-family: 'Big Shoulders Display', cursive;
 }
 

@@ -21,6 +21,11 @@ const StyledLogo = styled.div`
   align-items: center;
   justify-content: center;
 }
+
+.logo > img {
+  position: relative;
+  top: 0.2em;
+}
 `
 
 const LayoutMain = ({children}) => {
@@ -35,8 +40,9 @@ const LayoutMain = ({children}) => {
 
   const vamos = () => {
     setAuth({auth:false,token: "",user: ""});
-   history.replace("/Inicio");
+    history.replace("/bibliotecapublicam");
   }
+
 
   return (
     <Layout>
@@ -50,12 +56,12 @@ const LayoutMain = ({children}) => {
       >
         <StyledLogo>
          <div className="logo">
-            <img src={logo} height="110" width="110" alt="" />
+            <img src={logo} height="110" width="105" alt="" />
          </div>
         </StyledLogo>
-        <Menu theme="dark" mode="inline" defaultSelectedKeys={[`${stateKey}`]}>
+        <Menu theme="dark" mode="inline" style={{ position: "relative", top:"1.5em" }} defaultSelectedKeys={[`${stateKey}`]}>
           <Menu.Item key="1" onClick={captureKey} icon={<ReadOutlined />}>
-            <NavLink to="/BibliotecaPublicaM">
+            <NavLink to="/bibliotecapublicam">
               Libros
             </NavLink>
         </Menu.Item>
@@ -85,7 +91,7 @@ const LayoutMain = ({children}) => {
       <Layout className="site-layout" style={{ marginLeft: 200 }}>
         <Header className="site-layout-background" style={{ padding: 0 }} >
          <div className="container text-center mt-2">
-            <h2 className="title-layout">Biblioteca Publica de Totogalpa</h2>
+            <h2 className="title-layout">Biblioteca Publica la Merced</h2>
          </div>
         </Header>
         <Content style={{ margin: '24px 16px 0', marginTop: '6em' ,overflow: 'initial' }}>

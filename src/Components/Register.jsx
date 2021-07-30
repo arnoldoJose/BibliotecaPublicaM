@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useContext} from 'react';
 import { Form, Input, Button } from 'antd';
 import { UserOutlined, LockOutlined,PhoneOutlined } from '@ant-design/icons';
+import { CRMAuthContext } from '../Context/AuthContext';
 import { useHistory } from 'react-router-dom';
 import clientAxios from '../Config/config';
 
@@ -15,9 +16,20 @@ box-shadow: 1px 3px 16px 4px #7a7a7a4a ;
 const Register = () => {
 
  let history = useHistory();
+
+  const { setAuth } = useContext(CRMAuthContext);
+
   const onRegister = async (values) => {
-    await clientAxios.post("register/user",values);
-    history.push("/BibliotecaPublicaM");
+   let data = await clientAxios.post("register/user",values);
+    let  { newUser, token } = data.data;
+
+    setAuth({
+      auth: true,
+      token:token,
+      user: newUser
+    });
+
+    if (data.status === 200) history.push("/BibliotecaPublicaM")
   };
 
   return (
