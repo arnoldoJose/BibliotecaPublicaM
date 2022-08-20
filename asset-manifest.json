@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/BibliotecaPublicaM/static/css/main.4a5f24c4.css",
+    "main.js": "/BibliotecaPublicaM/static/js/main.71ea0157.js",
+    "static/js/498.6584e593.chunk.js": "/BibliotecaPublicaM/static/js/498.6584e593.chunk.js",
+    "static/js/703.f2d186fc.chunk.js": "/BibliotecaPublicaM/static/js/703.f2d186fc.chunk.js",
+    "static/js/278.ec27387c.chunk.js": "/BibliotecaPublicaM/static/js/278.ec27387c.chunk.js",
+    "static/media/BigShould.ttf": "/BibliotecaPublicaM/static/media/BigShould.c24d192f9f759f75c0a4.ttf",
+    "index.html": "/BibliotecaPublicaM/index.html",
+    "main.4a5f24c4.css.map": "/BibliotecaPublicaM/static/css/main.4a5f24c4.css.map",
+    "main.71ea0157.js.map": "/BibliotecaPublicaM/static/js/main.71ea0157.js.map",
+    "498.6584e593.chunk.js.map": "/BibliotecaPublicaM/static/js/498.6584e593.chunk.js.map",
+    "703.f2d186fc.chunk.js.map": "/BibliotecaPublicaM/static/js/703.f2d186fc.chunk.js.map",
+    "278.ec27387c.chunk.js.map": "/BibliotecaPublicaM/static/js/278.ec27387c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a5f24c4.css",
+    "static/js/main.71ea0157.js"
+  ]
+}
