@@ -1,0 +1,102 @@
+/* @import '~antd/dist/antd.css'; */
+
+/* .login-form {
+  margin: 6em;
+}
+
+
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+} */
+.login-form-button {
+  width: 100%;
+}
+.login-form{
+  width: 100%;
+  height: 100%;
+}
+.form-group-login{
+  padding: 4em 9px 11px 9px;
+}
+
+.container-input{
+  display: flex;
+  align-items: center;
+}
+
+.container-input > .bi {
+  padding: 0 5px 0 0;
+}
+
+.d-grid {
+  padding: 20px 0 0 0;
+}
+
+.link-regis{
+  padding: 9px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.register-input {
+   padding: 1.5em 9px 11px 9px;
+}
+.container-ref{
+  display: flex;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  border-right: 0px;
+}
+
+
+/* 
+ <Form
+          name="normal_login"
+          className="login-form"
+          initialValues={{
+            remember: true,
+          }}
+          onFinish={onFinish}
+        >
+          <Form.Item
+            name="email"
+            rules={[
+              {
+                required: true,
+                message: 'Please input your Username!',
+              },
+            ]}
+          >
+            <Input prefix={<UserOutlined className="site-form-item-icon form-control" />} placeholder="Username" />
+          </Form.Item>
+          <Form.Item
+          className='form-control'
+            name="password"
+            rules={[
+              {
+                required: true,
+                message: 'Please input your Password!',
+              },
+            ]}
+          >
+            <Input
+              prefix={<LockOutlined className="site-form-item-icon form-control" />}
+              type="password"
+              placeholder="Password"
+            />
+          </Form.Item>
+
+          <Form.Item>
+            <Button type="primary" htmlType="submit" className="login-form-button">
+              Iniciar sesion
+        </Button>
+        O <NavLink to="/registrate" >
+              Registrate
+        </NavLink>
+          </Form.Item>
+        </Form> */

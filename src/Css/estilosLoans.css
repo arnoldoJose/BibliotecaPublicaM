@@ -1,0 +1,16 @@
+
+.list-group{
+  padding: 0 15px 0 15px;
+}
+
+.list-group li {
+  border: none;
+}
+
+.table-dark tr th {
+  text-align: center;
+}
+
+.table tbody tr td {
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+ .content-all{border:none;background-color:rgba(238,238,238,.9)}.Row{margin:2em}.modal-footer{display:flex;justify-content:center}.modal-header>h5{text-align:center}.content-book{display:flex}@media (max-width:800px){.content-book{display:flex;flex-direction:column;text-align:center}}.container-label{text-align:center}.container-date{display:flex;justify-content:center;margin:1.5em}.container-date>input{width:20em}
+ .name-autoLine{border-bottom: 1px solid rgba(0, 0, 0, .5);}
+
+.container{padding-top: 2rem;}
+ 
+.content-all {
+  margin:1.2em;
+  overflow:hidden; 
+  border: none;
+  box-shadow:1px 1px 15px 3px rgb(218, 216, 216);
+}
+
+.content-all .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-all .row .col-sm-8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .content-btn > button{margin: 0.3em;}
+
+ .container .container-search-input{ width: 50%; }
+
+ .container-message{display:flex;justify-content:center;min-height:2em;position:relative;top:1.4em;text-align:center}
+
+ .error{width:25em;color:#842029;background-color:#f8d7da;border-color:f5c2c7;font-size:1.3em}
+
+ .no-stock{background-color: #f8d7da;}
+
+ .table-striped thead tr th { text-align: center;} 
+
+ @media  (max-width:992px) { .content-book {width: 100%;} }

@@ -1,0 +1,144 @@
+
+
+
+html{
+  overflow: overlay;
+}
+html body #root .App {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 0% auto ;
+  grid-template-areas: "menus  main"
+                      
+}
+
+@font-face {
+  font-family: titleBi;
+  src: url('../font/Big_Shoulders_Display/BigShould.ttf');
+}
+
+.title-layaout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: titleBi;
+  padding: 0.5em 0 0;
+  height: 64px;
+  background-color: white;
+  /* box-shadow: 1px 2px 14px -2px rgba(107, 107, 107, 0.5); */
+}
+
+header {
+  grid-area: menus;
+}
+
+main {
+  grid-area: main;
+  overflow: auto;
+  padding-left: 200px;
+  background-color: #f0f2f5;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #001529;
+  padding: 1px 0 0 0 ;
+  position: fixed;
+  max-width: 200px;
+  min-width: 200px;
+  width: 200%;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+
+}
+.container-data{
+  
+  padding: 1em 0 2rem 0;
+  margin: 1rem 16px 0;
+  background-color: white;
+  /* box-shadow: 1px 2px 14px -2px rgba(107, 107, 107, 0.5); */
+  /* margin-top: 1.6rem; */
+}
+
+.container-data .card-layaout {
+  padding: 24px;
+}
+
+.container-data > .card-layaout .card{
+ margin: 1.2em;
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.content-logo .logo{
+  height: 7rem;
+}
+/*
+par de la navegacion
+*/
+
+.list-navigate{
+  list-style: none;
+  color: white;
+  padding-left: 0;
+}
+
+.list-navigate > li {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+    z-index: 9;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  height: 45px;
+  /* background-color: #1890ff; */
+}
+
+
+.list-navigate > li > .span-url{
+  margin-left: 10px;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+}
+
+.navigate {padding: 20px 0 0 0;}
+
+.back-color-list{
+  position: relative;
+  background-color: #1890ff;
+
+  transition: all 0.5s ease-in-out;
+}
+
+
+/* .site-layout .site-layout-background {
+  background: #fff;
+}
+
+.ant-layout-content{
+  margin-top: 6em;
+}
+
+
+.site-layout-background > .container > .title-layout {
+  font-family:sans-serif;
+
+}
+
+.site-layout-background > .container > .title-layout {
+  font-size: 2.9em;
+} */
