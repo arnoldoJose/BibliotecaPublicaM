@@ -7,6 +7,7 @@ import clienteAxios from '../Config/config';
 import { CRMAuthContext } from '../Context/AuthContext';
 import { useHistory,NavLink } from 'react-router-dom';
 import { messageError } from '../Utils/alertFuntional';
+import Swal from 'sweetalert2';
 
 import Layout from './Layout';
 
@@ -40,7 +41,7 @@ const Login = () => {
 
         if (data.status === 200) history.push("/BibliotecaPublicaM");
       } catch (error) {
-        console.log(error.response);
+        messageError(error.response.data.message);
       }
     };
 

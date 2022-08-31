@@ -51,10 +51,7 @@ const Layout = ({children}) => {
     setAuth({auth:false,token: "",user: ""});
     replace("/login");
   }
-
-
-
-
+  
   return (
     <div className="App">
       <AlertMain/>
